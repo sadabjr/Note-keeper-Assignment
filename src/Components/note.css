@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem auto auto auto ;
+    max-width: 30vw;
+    background-color: #dadada;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.note{
+    background-color: white;
+    color: black;
+    border: 1px solid rgba(197, 197, 197, 0.361);
+    border-radius: 8px;
+    width: 15vw;
+    min-height: 22vh;
+    margin: 3rem 3rem 6rem 1rem;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 2px 5px 25px #888888fb;
+
+}
+
+.note Button{
+    margin-top: 2px;
+    padding: 2px;
+    float: right;
+    background-color: rgba(158, 250, 255, 0.359);
+}
+

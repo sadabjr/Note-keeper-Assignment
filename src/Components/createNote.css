@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_note{
+    margin: auto;
+    background-color: white;
+    width: 30vw;
+    max-height: 25vh;
+    border-radius: 8px;
+    box-shadow: 5px 10px 18px #888888fb;
+    padding-bottom: 1rem;
+}
+
+.main_note form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+.main_note form input, textarea {
+    font-size: 20px;
+    padding: 8px; border: 1px solid rgba(197, 197, 197, 0.361);
+   
+    border-radius: 8px;
+}
+
+.main_note form  textarea{
+    margin-top: 10px;
+    resize: none;
+}
+
+.main_note form Button{
+    margin: 20px;
+    background-color: rgba(158, 250, 255, 0.359);
+}

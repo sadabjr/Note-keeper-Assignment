@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 82, 116);
+    color: white;
+    width: 100vw;
+    height: 8vh;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 14px #888888fb;
+}
+
+.logo{
+    margin: 10px 20px 5px 10px;
+    height: 5vh;
+}
+
+.header h2{
+    margin: 10px 0 0 0;
+}
